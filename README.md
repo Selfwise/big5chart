@@ -1,4 +1,4 @@
-![MIDI mama online midi debugger](./public/big5chart.png)
+![MIDI mama online midi debugger](./public/MidiMama.png)
 
 # big5chart
 
