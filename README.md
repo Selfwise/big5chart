@@ -48,7 +48,7 @@ You can integrate MIDI Mama into your project in several ways:
 ### NPM Package (Recommended)
 
 ```bash
-npm install https://github.com/AuraTown/big5chart.git
+npm install https://github.com/Selfwise/big5chart.git
 ```
 
 Uninstall (or to update to a newer version)
@@ -56,7 +56,7 @@ Uninstall (or to update to a newer version)
 ```bash
 npm uninstall big5chart
 npm cache clean --force
-npm install https://github.com/AuraTown/big5chart.git
+npm install https://github.com/Selfwise/big5chart.git
 ```
 
 ### Manual Download
@@ -125,7 +125,7 @@ If you'd like to contribute to MIDI Mama or customize it for your needs, here's 
 
 ```bash
 # Clone the repository
-git clone https://github.com/AuraTown/big5chart.git
+git clone https://github.com/Selfwise/big5chart.git
 cd big5chart
 
 # Install dependencies
