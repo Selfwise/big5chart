@@ -1,0 +1,40 @@
+{
+  "name": "big5chart",
+  "files": ["dist"],
+  "main": "./dist/big5chart.umd.js",
+  "module": "./dist/big5chart.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/big5chart.es.js",
+      "require": "./dist/big5chart.umd.js"
+    },
+   "./dist/style.css": "./dist/style.css"
+  },
+  "style": "./dist/style.css",
+  "private": true,
+ 
+  "version": "0.0.1",
+ 
+  "type": "module",
+  "scripts": {
+ 
+    "build": "vite build",
+      "dev": "vite --config vite.dev.config.js",
+    "devOLD": "vite serve examples/dev",
+        "build:demo": "vite build examples/demo --config vite.demo.config.js"
+   
+  },
+  "peerDependencies": {
+    "vue": "^3.0.0"
+  },
+  "dependencies": {
+   
+   
+  },
+  "devDependencies": { "vue": "^3.5.12",
+     "vue-json-pretty": "^2.4.0",
+    "@vitejs/plugin-vue": "^5.1.4",
+    "vite": "^5.4.9"
+  },
+  "author": "aura.town"
+}
